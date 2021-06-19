@@ -1,0 +1,489 @@
+*{
+    margin: 0; 
+    padding:0; 
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; 
+}
+
+
+.container{
+height: 105vh; 
+width: 100vw; 
+padding:0; 
+background-color: black; 
+position: relative;
+border-radius: 2px;
+border-color: red;
+}
+
+#jellyoverlay
+{
+    z-index:0; position: fixed;
+    top: 50px;; 
+  height: 90vh; 
+  width: 700px; 
+  position: absolute; right: 0%;  
+  display: flex; 
+  align-items:center; 
+  justify-content: center;
+}
+
+.title
+{
+    color:white; 
+    text-shadow: magenta -3px 2px;
+    font-family: Bebas Neue; 
+    font-size: 85px;
+    padding: 1.5cm; 
+    position: absolute;
+    top: 25%;
+}
+
+.name
+{
+    color:white; 
+    font-family: Open Sans Condensed; 
+    font-size: 35px;
+    padding: 1.5cm; 
+    position: absolute;
+    top: 40%;
+}
+.section2
+{
+color:green;
+height:100vh; 
+width:100vw; 
+}
+
+.navigation {
+    z-index: 100;
+    height: 1.8cm; 
+    position: fixed;
+    overflow: hidden;
+    background-color: rgb(127, 58, 255);
+    width: 100vw; 
+  }
+  
+  .navigation a {
+    float: right;
+right: 100px;
+    display: block;
+    color: #ffffff;
+    text-align: center;
+    padding: 22px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    font-family: Bebas Neue; 
+  }
+    .navigation a:hover {
+    background: rgb(128, 240, 255);
+    color: black;
+  }
+  
+  #home
+  {
+    float: left;
+    
+  }
+
+  .container-2
+  {
+      width: 100vw;
+      height: 80vh; 
+    background-color: black;
+    color: white;
+    border: 0ch;
+  }
+
+  #blurb
+  {
+      padding-top: 2.5cm;
+      text-decoration-line: underline;
+      text-align:center; 
+      font-family: Bebas Neue; 
+letter-spacing: 5mm;
+font-size: 40px;
+text-shadow:blueviolet 3px 2px;
+  }
+  
+  p
+  {
+      font-size: 17px;
+    padding-top: 7mm;
+    text-align: center; 
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60em;
+    font-family: Open Sans Condensed; 
+  }
+
+  #gif 
+  {    
+      padding-top: 15mm;
+      width: 100vw;
+      height: 8cm;
+  }
+ 
+/*aboutme*/
+
+.aboutme
+{
+    width: 100vw;
+    height: 100vh; 
+  background-color: black;
+
+}
+#aboutmetitle
+{
+    margin-left: 4mm;
+    color:white; 
+    top:2cm; 
+    text-shadow: blueviolet -3px 2px;
+    font-family: Bebas Neue; 
+    font-size: 76px;
+    position: absolute;
+    letter-spacing: 19px;
+    text-decoration: underline 5px;
+}
+
+#abot
+{
+color:white ; 
+padding-top: 5cm;
+font-size: 30px; 
+text-align: left;
+}
+#abotcolor
+{
+    margin-left: 4mm;
+font-family: Bebas Neue;
+color:rgb(174, 250, 250); 
+letter-spacing: 4px; 
+}
+
+.aboutmebody
+{
+    overflow:hidden; 
+}
+
+
+.containerprojects
+{
+width: 100vw; 
+height: 77vh; 
+background-color: black; 
+overflow-x: hidden;
+}
+
+#paraprojects
+{
+  color:white; 
+}
+
+#projects
+{
+  color:white;
+  text-align:center; 
+  font-family: Bebas Neue;
+  letter-spacing: 15px; 
+  text-decoration: underline;
+  text-shadow: -3px 2px blueviolet;
+  margin-top: 50px black;
+}
+
+.imageflashcard
+{
+  display: inline-block;
+  position: relative;
+  padding: 5px 8px;
+}
+
+.left-image
+{
+  top: 50px;
+  width: 600px;
+  height:330px;
+  display: inline-block;
+  border-radius: 30px; 
+  position: relative;
+  left: 2%;
+  margin-left: 2%;
+}
+
+.imageflashcardheader
+{
+  color:white; 
+  position: absolute;
+  top: 190px;
+  left: 120px;
+  text-align: center;
+  justify-content: center;
+  font-family: Bebas Neue;
+  letter-spacing: 10px;
+  font-size: 60px; 
+
+}
+
+#project
+{
+  font-family: Bebas Neue;
+  letter-spacing: 10px;
+  font-size: 60px; 
+  top: 50%; 
+}
+
+.khanacademy
+{
+  position: relative;
+  display: inline-block;
+}
+
+.right-image
+{
+  margin-left: 10%;
+  top: 50px;
+  width: 600px;
+  height:330px;
+  display: inline-block;
+  border-radius: 30px; 
+  position: relative;
+  right: 3%;
+  margin-right: 8% black; 
+}
+
+.khanimageflashcardheader
+{
+  color:white; 
+  position: absolute;
+  width: 100px;
+  top: 140px;
+  left: 280px;
+  text-align: center;
+  justify-content: center;
+  font-family: Bebas Neue;
+  letter-spacing: 10px;
+  font-size: 60px; 
+}
+
+#imageflashcardheader2
+{
+  color:white; 
+  position: absolute;
+  width: 100px;
+  top: 140px;
+  left: 280px;
+  text-align: center;
+  justify-content: center;
+  font-family: Bebas Neue;
+  letter-spacing: 10px;
+  font-size: 60px; 
+}
+
+#academy
+{
+  color:white; 
+  position: relative;
+  font-family: Bebas Neue;
+  letter-spacing: 10px;
+  font-size: 60px; 
+right: 50%; 
+}
+
+.container3
+{
+  width: 100vw;
+  height: 1000px; 
+background-color: black;
+color: white;
+}
+#joournal
+{
+  padding-top: 2.5cm;
+  text-decoration-line: underline;
+  text-align:center; 
+  font-family: Bebas Neue; 
+letter-spacing: 5mm;
+color: white;
+font-size: 40px;
+text-shadow:magenta 3px 2px;
+}
+
+#naturet
+{
+  float: center;
+color: white;
+
+}
+
+.nature
+{
+width:450px; 
+height: 400px; 
+margin-top: 2cm;
+margin-left: 2cm;
+}
+
+.master 
+{
+  position: relative; 
+  width: 50%;
+}
+
+.nature
+{
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position:absolute;
+  top: 0;
+  bottom: 0;
+  left: 75px;
+  right: 0;
+  height: 100%;
+  width: 100.7%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: blueviolet;
+}
+
+.naturehover 
+{
+  text-align: center;
+  justify-content: center;
+  margin-top: 35%; 
+  font-family:'Times New Roman', Times, serif;
+}
+
+.master:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  color: white;
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+
+
+.container5
+{
+  color: black;
+}
+
+#youtubevideo
+{
+  justify-content: right; 
+   right: 5%;
+   top:17%; 
+   position: absolute;
+}
+
+
+.container-khan
+{
+  width: 100vw;
+  height:1500px; 
+  background-color: black;
+ 
+}
+
+#day1
+{
+  background: black;
+  padding-top: 2.5cm;
+  text-decoration-line: underline;
+  text-align:center; 
+  font-family: Bebas Neue; 
+letter-spacing: 5mm;
+color: white;
+font-size: 40px;
+text-shadow:magenta 3px 2px;
+}
+#khan
+{
+  margin-top: 2.0cm;
+  width: 50px;
+  display: inline-block;
+  width: 500px;
+  height: 500px;
+  padding-left: 60px;
+  padding-right: 60px;
+}
+
+
+#explorationheader
+{
+  font-family: Bebas Neue;
+  color: white;
+  font-size: 50px;
+  padding-top: 150px;
+  font-size: 60px;
+  letter-spacing: 10px;
+  text-align: center;
+}
+
+#animalexploration
+{
+  border-radius: 15px;
+  padding: 20px; 
+  width: 200px;
+  height: 150px; 
+}
+
+.containerproh
+{
+  background-color: black;
+  display: inline-block;
+  height: 120vh;
+  width: 100vw;
+  display: inline-block;
+  overflow: hidden;
+}
+
+
+.imageflashcard
+{
+  color: white;
+  position: relative;
+  display: inline-block;
+  padding-top: 50px;
+}
+.ecosytem
+{
+  color: white;
+  font-family: Bebas Neue;
+  font-size: 50px;
+  letter-spacing: 10px;
+  text-align: center;
+  position: absolute;
+  top: 66%;
+  left: 50%;
+  padding-left: 30px;
+  transform: translate(-50%, -50%);
+  display: inline-block;
+
+}
+
+.ecosytem1
+{
+  color: white;
+  font-family: Bebas Neue;
+  font-size: 50px;
+  letter-spacing: 10px;
+  text-align: center;
+  position: absolute;
+  top: 66%;
+  left: 60%;
+  padding-right: 20px;
+  transform: translate(-50%, -50%);
+  display: inline-block;
+}
